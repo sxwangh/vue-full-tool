@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    App.vue:  to start ...
   </div>
 </template>
 
