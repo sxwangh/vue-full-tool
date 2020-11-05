@@ -1,6 +1,9 @@
 # vue-full-tool
-vuecli3+axios+sass+elementUI-dynamic import
+vuecli3(vue2+vuecli3)+axios+sass+elementUI-dynamic import
 +docker+nginx+ssl
+
+# 多页面配置 login.html  index.html
+vue.config.js中配置
 
 ## Project setup
 ```
