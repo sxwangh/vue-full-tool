@@ -43,7 +43,9 @@ http {
         proxy_set_header X-UserID $http_user_id;
 
         location / {
-          proxy_pass  http://${SELF_IP}:8080/;
+          # proxy_pass  http://${SELF_IP}:8080/;
+          root /var/www/dist;
+          index index.html index.htm;
         }
         #location /ccs/v1/ccs/openapi {
         #  proxy_pass  http://11.0.0.118;

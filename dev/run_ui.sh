@@ -15,5 +15,5 @@ do
     sed -e "s/\${REMOTE_IP}/$REMOTE_IP/g"  >> nginx.conf
 done < nginx.conf.ui.template
 
-cmd="docker-compose -f ./docker-compose.yml up --force-recreate -d my-vue-project"
+cmd="docker-compose -f ./docker-compose.yml up --force-recreate -d my-emoti-mate"
 eval $cmd
