@@ -2,6 +2,7 @@
 vuecli3(vue2+vuecli3)+axios+sass+elementUI-dynamic import
 +docker+nginx+ssl
 bus中央事件 Vue.prototype.$_bus = bus;
+docker基础镜像 https://github.com/sclorg/nginx-container 
 
 # 多页面配置 login.html  index.html
 vue.config.js中配置

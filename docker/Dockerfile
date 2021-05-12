@@ -1,4 +1,5 @@
-FROM nginx
+# FROM nginx
+FROM quay.io/centos7/nginx-116-centos7
 
 COPY docker/conf/nginx.conf.template /etc/nginx/nginx.conf.template
 COPY docker/ssl /etc/nginx/https
