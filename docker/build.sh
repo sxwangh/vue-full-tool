@@ -1,10 +1,10 @@
 #!/bin/bash
-REPO=harbor.xxx.com
-PROJECT=csa
-CONTAINER=my-vue-project
+REPO=sixuewang
+PROJECT=fe
+
 TAG=$(git rev-parse --short HEAD)-$(date '+%Y%m%d-%H%M')
 
-DOCKER_IMAGE=$REPO/$PROJECT/$CONTAINER:$TAG
+DOCKER_IMAGE=$REPO/$PROJECT:$TAG
 
 echo "TAG: $TAG"
 echo "DOCKER_IMAGE: $DOCKER_IMAGE"

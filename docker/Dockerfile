@@ -1,4 +1,4 @@
-FROM harbor.emotibot.com/image-base/alpine-nginx:v1.17
+FROM nginx
 
 COPY docker/conf/nginx.conf.template /etc/nginx/nginx.conf.template
 COPY docker/ssl /etc/nginx/https
