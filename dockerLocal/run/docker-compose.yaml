@@ -1,12 +1,13 @@
 version: '3'
 services:
-  wsx-ui:
-    container_name: wsx-ui
-    image: iregistry.xxxx.com/aaa-cloud/wsx-ui:1289d72-20210831-1125
+  yyds:
+    container_name: yyds
+    image: docker.io/sixuewang/fe:accb164-20210512-1845
     ports:
       - 17000:80
+      - 17007:443
     environment:
-      - OPEN_API=10.10.10.10:8687
+      - OPEN_API=11.0.0.118
     restart: always
     logging:
       driver: json-file
